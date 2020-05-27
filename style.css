@@ -26,6 +26,9 @@ body {
 }
 
 .person {
+    display: flex;
+    align-items: flex-start;
+    
 }
 
 .person__description {
@@ -52,6 +55,14 @@ body {
   margin: 0;
   font-weight: normal;
 }
+
+.person__picture {
+    margin-right: 32px;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+}
+
 
 .person__position {
   font-size: 18px;
